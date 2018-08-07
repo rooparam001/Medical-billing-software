@@ -48,7 +48,8 @@ namespace WindowsFormsApplication1
 
         private void login_button_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Hello");
+            Billing billing = new Billing();
+            billing.Show(); 
         }
 
         private void login_textbox_TextChanged(object sender, EventArgs e)
